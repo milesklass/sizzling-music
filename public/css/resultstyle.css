@@ -1,0 +1,24 @@
+@font-face {
+    font-family: salvage;
+    src: url(upperline/finalproject/upperline-basic-sinatra-template/app/public/css/salvage.ttf);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 2em ;
+    font-family: salvage;
+}
+body{
+    text-align:center;
+    font-size: 1em
+
+    
+}
+html {
+    background: url("http://kideight.com/wp-content/uploads/Yeezy-2020-yeezy-kanye-2020-obama-yeezytaughtme.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
