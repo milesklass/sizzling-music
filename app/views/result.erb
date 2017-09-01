@@ -5,7 +5,9 @@
      </head>
     <body>
         <h1> Your mood music playlist: </h1>
-        <h3> <%= @thing %> </h3>
+        <% for video in @thing%>
+        <h3> <%= video %> </h3>
+        <% end %>
          <a href= "/" >
            <button>Go To Homepage</button>
       </a>

@@ -38,9 +38,10 @@ def playsadsong()
         '<iframe width="560" height="315" src="https://www.youtube.com/embed/8j741TUIET0" frameborder="0" allowfullscreen></iframe>',
         '<iframe width="560" height="315" src="https://www.youtube.com/embed/O11UikJigxo" frameborder="0" allowfullscreen></iframe>',
     ]
-    randommusic = musiclist.sample
+    # randommusic = musiclist.sample
 
-    return randommusic
+    # return randommusic
+    return musiclist
 end
     
 def playcalmsong()
@@ -68,9 +69,10 @@ def playcalmsong()
         '<iframe width="560" height="315" src="https://www.youtube.com/embed/cmSbXsFE3l8" frameborder="0" allowfullscreen></iframe>',
         '<iframe width="560" height="315" src="https://www.youtube.com/embed/BPNTC7uZYrI" frameborder="0" allowfullscreen></iframe>',
     ]
-    randommusic = musiclist.sample
+    # randommusic = musiclist.sample
     
-    return randommusic
+    # return randommusic
+    return musiclist
 end
 
 def playhappysong()
@@ -102,7 +104,8 @@ def playhappysong()
         '<iframe width="560" height="315" src="https://www.youtube.com/embed/FM7MFYoylVs" frameborder="0" allowfullscreen></iframe>',
     ]
     
-    randommusic = musiclist.sample
+    # randommusic = musiclist.sample
     
-    return randommusic
+    # return randommusic
+    return musiclist
 end

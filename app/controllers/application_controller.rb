@@ -21,6 +21,7 @@ class ApplicationController < Sinatra::Base
     @mood = params["mood"]
     puts "Your mood is #{@mood}"
     @thing = get_video(@mood)
+    print @thing
     erb :result
   end
 end

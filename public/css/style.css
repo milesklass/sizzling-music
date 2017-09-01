@@ -6,12 +6,31 @@ h1 {
     font-size: 2em ;
     font-family: 'Raleway', sans-serif;
 }
+
+input {
+  visibility: hidden;
+}
+
+input#submit {
+  visibility: visible;
+}
+
+label {
+  cursor: pointer;
+}
+
+input:checked + label {
+  background: rgba(0, 0, 0, 0.2);
+}
+
 body{
     text-align:center;
     font-size: 3em ;
     color: #845D72;
     font-family: 'Raleway', sans-serif;
 }
+
+
 html {
     background-color:#AFAFAF;
     -moz-background-size: cover;
